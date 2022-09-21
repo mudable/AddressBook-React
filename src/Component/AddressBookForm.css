@@ -1,0 +1,145 @@
+.WebContainer{
+    width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: left; 
+    padding: 20px 20px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.header{
+ display: flex;
+ flex-direction: column;
+ padding-right: 40px;
+ font-weight: bold;
+ font-size : 20px;
+}
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+  }
+  .person{
+    /* display: flex;
+    flex-direction: column; */
+    height: 70px;
+    width: 650px;
+    text-align: center;
+    background-color:#008CFF;
+  }
+  .person-address{
+    /* padding-left: 50px;*/
+    padding-top: 20px; 
+    align-items: center;
+    background-color:#008CFF;
+    color: rgb(61, 51, 9);
+    font-size: 20px;
+    font-style: italic;
+    
+  }
+ 
+  .form-size{
+    margin-top: 25px;
+    min-height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .form-head-image{
+    padding-left: 600px;
+    padding-bottom: 25px;
+    height: 25px;
+    width: 25px;
+  }
+  .form-constrains {
+    padding-left: 60px;
+    background-color:white;
+  } 
+  .input-name {
+    margin-top: 20px;
+    width: 450px;
+    height: 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding-block: 20px;
+  }
+  .addressbook{
+    width: 450px;
+    height: 60px;
+    border-radius: 6px;
+  }
+  .city-state{
+    height: 30px;
+    margin-top: 10px;
+    width: 140px;
+    border-radius: 6px;
+    margin-left: 10px;
+  }
+  #zip{
+    height: 30px;
+    margin-top: 10px;
+    width: 140px;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+  }
+  #phoneNumber{
+    height: 24px;
+    margin-top: -3px;
+    width: 450px;
+    border-radius: 6px;
+    padding-block: 20px;
+    margin-bottom: 20px;
+  }
+  .button{
+      background-color:cadetblue  ;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      margin-left: 80px;
+      border-radius: 5px;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 10px;
+  }
+
+  #error-output {
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  .name-error{
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  .address-error{
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  .tel-error{
+    margin-left: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+  }
+  .zip-error{
+
+    margin-left: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+  }
